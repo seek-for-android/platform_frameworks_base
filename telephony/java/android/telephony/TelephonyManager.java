@@ -2502,6 +2502,19 @@ public class TelephonyManager {
     }
 
     /**
+     * Returns the ATR of the UICC if available.
+     *
+     * @return The ATR of the UICC if available.
+     */
+    public String iccGetAtr() {
+        try {
+            return getITelephony().iccGetAtr();
+        } catch (RemoteException e) {
+        }
+        return null;
+    }
+
+    /**
      * Send ENVELOPE to the SIM and return the response.
      *
      * <p>Requires Permission:

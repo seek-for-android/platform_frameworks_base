@@ -568,6 +568,11 @@ interface ITelephony {
             String filePath);
 
     /**
+     * Returns the ATR of the UICC as a Hex String.
+     */
+    String iccGetAtr();
+
+    /**
      * Send ENVELOPE to the SIM and returns the response.
      *
      * @param contents  String containing SAT/USAT response in hexadecimal
