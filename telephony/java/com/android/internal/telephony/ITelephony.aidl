@@ -512,7 +512,7 @@ interface ITelephony {
      * @param AID Application id. See ETSI 102.221 and 101.220.
      * @return an IccOpenLogicalChannelResponse object.
      */
-    IccOpenLogicalChannelResponse iccOpenLogicalChannel_P2(String AID, byte p2);
+    IccOpenLogicalChannelResponse iccOpenLogicalChannelP2(String AID, byte p2);
 
     /**
      * Closes a previously opened logical channel to the ICC card.
