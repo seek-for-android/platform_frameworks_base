@@ -2407,9 +2407,9 @@ public class TelephonyManager {
      * @param p2 byte.
      * @return an IccOpenLogicalChannelResponse object.
      */
-    public IccOpenLogicalChannelResponse iccOpenLogicalChannel_P2(String AID, byte p2) {
+    public IccOpenLogicalChannelResponse iccOpenLogicalChannel(String AID, byte p2) {
         try {
-            return getITelephony().iccOpenLogicalChannel_P2(AID, p2);
+            return getITelephony().iccOpenLogicalChannelP2(AID, p2);
         } catch (RemoteException ex) {
         } catch (NullPointerException ex) {
         }
