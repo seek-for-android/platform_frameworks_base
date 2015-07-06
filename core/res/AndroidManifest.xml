@@ -2847,16 +2847,15 @@
         android:description="@string/permdesc_removeDrmCertificates"
         android:protectionLevel="signature|system" />
 
-    <!-- @SystemApi Indicate System Terminal.
-     Does not include placing calls.
+    <!-- @SystemApi Indicates that this OMAPI Terminal is a "system terminal".
      <p>Not for use by third-party applications. -->
     <permission android:name="org.simalliance.openmobileapi.SYSTEM_TERMINAL"
         android:protectionLevel="signature|system"
         android:label="@string/permlab_systemTerminal"
         android:description="@string/permdesc_systemTerminal" />
 
-    <!-- @SystemApi Indicate Bind Terminal application.
-    Does not include placing calls.
+    <!-- @SystemApi Permission used by SmartcardService to be able to bind to
+         system terminals.
     <p>Not for use by third-party applications. -->
     <permission android:name="org.simalliance.openmobileapi.BIND_TERMINAL"
         android:protectionLevel="signature|system"
