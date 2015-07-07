@@ -3090,7 +3090,7 @@
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permlab_bindTerminal">Bind OMAPI Terminal</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_bindTerminal">An app with this permission can bind to the System's OMAPI Terminals. Only SmartcardService should use it.</string>
+    <string name="permdesc_bindTerminal">An app with this permission can bind to the System\'s OMAPI Terminals. Only SmartcardService should use it.</string>
 
     <!-- If the user enters a password in a form on a website, a dialog will come up asking if they want to save the password. Text in the save password dialog, asking if the browser should remember a password. -->
     <string name="save_password_message">Do you want the browser to remember this password?</string>
