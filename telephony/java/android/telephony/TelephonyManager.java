@@ -2398,8 +2398,6 @@ public class TelephonyManager {
     /**
      * Opens a logical channel to the ICC card.
      *
-     * Input parameters equivalent to TS 27.007 AT+CCHO command.
-     *
      * <p>Requires Permission:
      *   {@link android.Manifest.permission#MODIFY_PHONE_STATE MODIFY_PHONE_STATE}
      *
